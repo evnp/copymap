@@ -1,0 +1,25 @@
+{
+  "name": "copymap",
+  "version": "0.0.1",
+  "description": "A new-fangled text-wrangler.",
+  "main": "copymap.sh",
+  "files": [
+    "copymap.sh"
+  ],
+  "bin": {
+    "copymap": "copymap"
+  },
+  "scripts": {
+    "lint": "shellcheck copymap.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evnp/copymap.git"
+  },
+  "homepage": "https://copymap.evnp.sh",
+  "author": "Evan Purcer <evanpurcer@gmail.com> (http://evnp.sh)",
+  "license": "MIT",
+  "devDependencies": {
+    "shellcheck": "1.1.0"
+  }
+}
